@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{0f2f6dc6-24f7-4b75-9571-c9d0f3b773f6}</ProjectGuid>
+    <RootNamespace>SuperMarioBros</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="-.txt" />
+    <Text Include="0.txt" />
+    <Text Include="1.txt" />
+    <Text Include="2.txt" />
+    <Text Include="3.txt" />
+    <Text Include="4.txt" />
+    <Text Include="5.txt" />
+    <Text Include="6.txt" />
+    <Text Include="7.txt" />
+    <Text Include="8.txt" />
+    <Text Include="9.txt" />
+    <Text Include="a.txt" />
+    <Text Include="barrier.txt" />
+    <Text Include="BirdLeft1.txt" />
+    <Text Include="BirdLeft2.txt" />
+    <Text Include="BirdRight1.txt" />
+    <Text Include="BirdRight2.txt" />
+    <Text Include="brick.txt" />
+    <Text Include="brick_blue.txt" />
+    <Text Include="brick_brown.txt" />
+    <Text Include="brick_gray.txt" />
+    <Text Include="castle.txt" />
+    <Text Include="coin.txt" />
+    <Text Include="color palette.txt" />
+    <Text Include="D.txt" />
+    <Text Include="Door.txt" />
+    <Text Include="DoorBoss.txt" />
+    <Text Include="DoorWhite.txt" />
+    <Text Include="DoorWhiteReverse.txt" />
+    <Text Include="E.txt" />
+    <Text Include="flower.txt" />
+    <Text Include="G.txt" />
+    <Text Include="GameOverScreen.txt" />
+    <Text Include="Gumba.txt" />
+    <Text Include="GumbaDead.txt" />
+    <Text Include="GumbaLeft.txt" />
+    <Text Include="GumbaRight.txt" />
+    <Text Include="Hammer.txt" />
+    <Text Include="I.txt" />
+    <Text Include="ItemBox_O.txt" />
+    <Text Include="ItemBox_X.txt" />
+    <Text Include="key.txt" />
+    <Text Include="Koopa.txt" />
+    <Text Include="KoopaFireLeft.txt" />
+    <Text Include="KoopaFireRight.txt" />
+    <Text Include="KoopaLeftAttack1.txt" />
+    <Text Include="KoopaLeftAttack2.txt" />
+    <Text Include="KoopaLeftStand1.txt" />
+    <Text Include="KoopaLeftStand2.txt" />
+    <Text Include="KoopaRightAttack1.txt" />
+    <Text Include="KoopaRightAttack2.txt" />
+    <Text Include="KoopaRightStand1.txt" />
+    <Text Include="KoopaRightStand2.txt" />
+    <Text Include="L.txt" />
+    <Text Include="M.txt" />
+    <Text Include="Map1.txt" />
+    <Text Include="Map2.txt" />
+    <Text Include="Map4.txt" />
+    <Text Include="Mario.txt" />
+    <Text Include="Mario_Fire.txt" />
+    <Text Include="Mario_Jump_Left.txt" />
+    <Text Include="Mario_Jump_Right.txt" />
+    <Text Include="Mario_Stand_Left.txt" />
+    <Text Include="Mario_Stand_Right.txt" />
+    <Text Include="Mario_Walk_1_Right.txt" />
+    <Text Include="Mario_Walk_2_Right.txt" />
+    <Text Include="O.txt" />
+    <Text Include="opening.txt" />
+    <Text Include="pipe_body.txt" />
+    <Text Include="pipe_top.txt" />
+    <Text Include="PodobooDown.txt" />
+    <Text Include="PodobooUp.txt" />
+    <Text Include="Princess.txt" />
+    <Text Include="R.txt" />
+    <Text Include="S.txt" />
+    <Text Include="SmallBush.txt" />
+    <Text Include="SmallCloud.txt" />
+    <Text Include="star.txt" />
+    <Text Include="T.txt" />
+    <Text Include="Thorn.txt" />
+    <Text Include="TurtleLeft.txt" />
+    <Text Include="TurtleLeftWalk.txt" />
+    <Text Include="TurtleRight.txt" />
+    <Text Include="TurtleRightWalk.txt" />
+    <Text Include="W.txt" />
+    <Text Include="WaterBallDown.txt" />
+    <Text Include="WaterBallUp.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="1UpSound.wav" />
+    <Media Include="BossStage.wav" />
+    <Media Include="Castle.wav" />
+    <Media Include="Coin.wav" />
+    <Media Include="Ending.wav" />
+    <Media Include="Game over.wav" />
+    <Media Include="GameClear.wav" />
+    <Media Include="Jump.wav" />
+    <Media Include="KickSound.wav" />
+    <Media Include="laser.WAV" />
+    <Media Include="MainMusic.wav" />
+    <Media Include="Mario dies.wav" />
+    <Media Include="mario-yahoo.WAV" />
+    <Media Include="PipeSound.wav" />
+    <Media Include="PowerUpSound.wav" />
+    <Media Include="Star.wav" />
+    <Media Include="Underground.wav" />
+    <Media Include="WaterBall.wav" />
+    <Media Include="World Clear.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="info.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackGround.c" />
+    <ClCompile Include="Bird.c" />
+    <ClCompile Include="ConsoleBufferContoller.c" />
+    <ClCompile Include="Gumba.c" />
+    <ClCompile Include="Item.c" />
+    <ClCompile Include="Koopa.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="Map.c" />
+    <ClCompile Include="Mario.c" />
+    <ClCompile Include="MusicController.c" />
+    <ClCompile Include="OpeningScene.c" />
+    <ClCompile Include="Podoboo.c" />
+    <ClCompile Include="Process.c" />
+    <ClCompile Include="StageController.c" />
+    <ClCompile Include="Turtle.c" />
+    <ClCompile Include="UI.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

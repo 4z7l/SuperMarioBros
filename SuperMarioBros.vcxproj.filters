@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="O.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="opening.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="pipe_body.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="pipe_top.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="PodobooDown.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="PodobooUp.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Princess.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="R.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="S.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="SmallBush.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="SmallCloud.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="star.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="T.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Thorn.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="TurtleLeft.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="TurtleLeftWalk.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="TurtleRight.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="TurtleRightWalk.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="W.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="WaterBallDown.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="WaterBallUp.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="-.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="0.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="1.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="2.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="3.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="4.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="5.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="6.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="7.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="8.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="9.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="a.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="barrier.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="BirdLeft1.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="BirdLeft2.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="BirdRight1.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="BirdRight2.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="brick.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="brick_blue.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="brick_brown.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="brick_gray.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="castle.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="coin.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="color palette.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="D.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Door.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="DoorBoss.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="DoorWhite.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="DoorWhiteReverse.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="E.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="flower.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="G.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="GameOverScreen.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Gumba.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="GumbaDead.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="GumbaLeft.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="GumbaRight.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Hammer.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="I.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="ItemBox_O.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="ItemBox_X.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="key.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Koopa.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="KoopaFireLeft.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="KoopaFireRight.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="KoopaLeftAttack1.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="KoopaLeftAttack2.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="KoopaLeftStand1.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="KoopaLeftStand2.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="KoopaRightAttack1.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="KoopaRightAttack2.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="KoopaRightStand1.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="KoopaRightStand2.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="L.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="M.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Map1.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Map2.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Map4.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Mario.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Mario_Fire.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Mario_Jump_Left.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Mario_Jump_Right.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Mario_Stand_Left.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Mario_Stand_Right.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Mario_Walk_1_Right.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="Mario_Walk_2_Right.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="BossStage.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Castle.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Coin.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Ending.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Game over.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="GameClear.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Jump.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="KickSound.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="laser.WAV">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="MainMusic.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Mario dies.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="mario-yahoo.WAV">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="PipeSound.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="PowerUpSound.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Star.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Underground.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="WaterBall.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="World Clear.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="1UpSound.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="info.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Item.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Koopa.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicController.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningScene.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Podoboo.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StageController.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Turtle.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleBufferContoller.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumba.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
